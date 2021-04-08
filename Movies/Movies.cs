@@ -20,12 +20,12 @@ namespace MyMoviesDatabase.Movies
             Genres = genres;
         }
 
-        public int Id{get; init;}
-        public string OriginalTitle {get; init;}
-        public string Title{get; init;}
-        public DateTime Year{get; init;}
-        public string ImdbLink{get; init;}
-        public List<string> Actors {get; init;}
-        public List<string> Genres{get; init;}
+        private int Id{get; init;}
+        private string OriginalTitle {get; init;}
+        private string Title{get; init;}
+        private DateTime Year{get; init;}
+        private string ImdbLink{get; init;}
+        private List<string> Actors {get; init;}
+        private List<string> Genres{get; init;}
     }
 }
