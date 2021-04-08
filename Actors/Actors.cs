@@ -1,11 +1,8 @@
 public class Actors
 {
-    public Actors(int id, int credits, string name, string linkImdb)
+    public Actors(int id)
     {
-        Id = id;
-        Credits = credits;
-        Name = name;
-        LinkImdb = linkImdb;
+        Id = id;       
     }
 
     public Actors(int credits, string name, string linkImdb)
